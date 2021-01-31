@@ -1,4 +1,5 @@
 import React from "react";
+import Product from './components/Product';
 import data from "./data";
 
 
@@ -22,7 +23,7 @@ function App() {
 
             data.products.map ( product =>(
 
-             <product key={product._id} product={product}></product>
+             <Product key={product._id} product={product}></Product>
 
             ))
 
