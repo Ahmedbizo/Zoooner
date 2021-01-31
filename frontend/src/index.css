@@ -106,7 +106,10 @@ img.medium {
 /* Rating */
 .rating span {
   color: #e7d56c;
-  margin: 0.1rem;
+  margin: 0.2rem;
+}
+.rating span:last-child {
+  color: #4052f3;
 }
 
 
